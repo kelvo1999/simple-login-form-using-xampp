@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+    <link rel="stylesheet" href="stylelogin.css">
+</head>
+<body>
+    <div class="loginbox">
+        <form action="Process.php"method="POST">
+        <h1>Login here</h1>
+            <p>Username</p>
+            <input type="text" name="Username" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="text" name="Password" placeholder="Enter Password">
+            <input type="submit" name="LOGIN" value="Login">
+            <a href="#">Forget Password</a></br>
+        </form>
+    </div>
+</body>
+</html>
