@@ -31,7 +31,7 @@ h1{
     width:100%;
     margin-bottom: 20px;
 }
-.loginbox input[type="text"],input[ype="password"]{
+.loginbox input[type="text"],input[type="password"]{
     border:none;
     border-radius: 1px solid #fff;
     background: transparent;
